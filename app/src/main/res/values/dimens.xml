@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Screen paddings (Overscan safe area for TVs) -->
+    <dimen name="screen_padding_horizontal">40dp</dimen>
+    <dimen name="screen_padding_vertical">28dp</dimen>
+
+    <!-- Top bar -->
+    <dimen name="clock_text_size">38sp</dimen>
+    <dimen name="date_text_size">14sp</dimen>
+
+    <!-- App Tile Cards -->
+    <dimen name="card_corner_radius">14dp</dimen>
+    <dimen name="card_border_width">2.5dp</dimen>
+    <dimen name="card_width">160dp</dimen>
+    <dimen name="card_height">125dp</dimen>
+    <dimen name="app_icon_size">56dp</dimen>
+    <dimen name="card_margin">10dp</dimen>
+    <dimen name="card_elevation_idle">2dp</dimen>
+    <dimen name="card_elevation_focused">10dp</dimen>
+    <dimen name="app_label_text_size">13sp</dimen>
+
+    <!-- Section header -->
+    <dimen name="section_title_size">18sp</dimen>
+</resources>

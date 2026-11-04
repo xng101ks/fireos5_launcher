@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.firetv.launcher.app-mergeDebugResources-28:/layout/dialog_app_options.xml",
+        "source": "com.firetv.launcher.app-main-31:/layout/dialog_app_options.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-mergeDebugResources-28:/layout/item_app_tile.xml",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/layout/item_app_tile.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-mergeDebugResources-28:/layout/dialog_app_options.xml",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/layout/dialog_app_options.xml"
+    },
+    {
+        "merged": "com.firetv.launcher.app-mergeDebugResources-28:/layout/activity_main.xml",
+        "source": "com.firetv.launcher.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-mergeDebugResources-28:/layout/activity_main.xml",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/layout/activity_main.xml"
+    }
+]

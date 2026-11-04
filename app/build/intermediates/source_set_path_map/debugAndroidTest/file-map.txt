@@ -1,0 +1,5 @@
+com.firetv.launcher.test.app-androidTest-0 /home/peter/Desktop/firetv-launcher/app/build/generated/res/resValues/androidTest/debug
+com.firetv.launcher.test.app-androidTest-1 /home/peter/Desktop/firetv-launcher/app/build/generated/res/rs/androidTest/debug
+com.firetv.launcher.test.app-mergeDebugAndroidTestResources-2 /home/peter/Desktop/firetv-launcher/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.firetv.launcher.test.app-mergeDebugAndroidTestResources-3 /home/peter/Desktop/firetv-launcher/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.firetv.launcher.test.app-merged_res-4 /home/peter/Desktop/firetv-launcher/app/build/intermediates/merged_res/debugAndroidTest

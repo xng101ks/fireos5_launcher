@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="bg_launcher_top">#141720</color>
+    <color name="bg_launcher_bottom">#0a0b10</color>
+    <color name="bg_top_bar">#33000000</color>
+
+    <!-- Cards & Tiles (ATV Launcher Pro Style) -->
+    <color name="card_background">#232834</color>
+    <color name="card_background_focused">#2c3342</color>
+    <color name="card_border_idle">#1AFFFFFF</color>
+    
+    <!-- Focus Accent Glow -->
+    <color name="accent_focus">#00E5FF</color>
+    <color name="accent_focus_glow">#6600E5FF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9DA8B6</color>
+    <color name="text_focused">#FFFFFF</color>
+
+    <!-- Dialogs -->
+    <color name="dialog_bg">#1D222C</color>
+    <color name="dialog_button_bg">#2A303F</color>
+    <color name="dialog_button_focused">#00E5FF</color>
+</resources>

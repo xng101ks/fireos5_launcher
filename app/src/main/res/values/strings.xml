@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FireTV Launcher</string>
+    <string name="section_apps">All Applications</string>
+    <string name="section_favorites">Favorites</string>
+    <string name="settings">Settings</string>
+    <string name="no_apps_found">No installed applications found</string>
+    <string name="app_options_title">App Options</string>
+    <string name="action_open">Open App</string>
+    <string name="action_add_favorite">Add to Favorites</string>
+    <string name="action_remove_favorite">Remove from Favorites</string>
+    <string name="action_app_info">Application Info</string>
+    <string name="action_uninstall">Uninstall App</string>
+    <string name="accessibility_service_label">FireTV Launcher Auto-Focus</string>
+    <string name="accessibility_service_desc">Keeps the custom launcher active on Fire TV devices</string>
+</resources>

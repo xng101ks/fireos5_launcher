@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/layout_dialog_app_options.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/layout/dialog_app_options.xml"
+    },
+    {
+        "merged": "com.firetv.launcher.app-merged_res-29:/color_selector_dialog_button_text.xml.flat",
+        "source": "com.firetv.launcher.app-main-31:/color/selector_dialog_button_text.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/drawable_dialog_background.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/drawable/dialog_background.xml"
+    },
+    {
+        "merged": "com.firetv.launcher.app-merged_res-29:/layout_dialog_app_options.xml.flat",
+        "source": "com.firetv.launcher.app-main-31:/layout/dialog_app_options.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/drawable_card_background_focused.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/drawable/card_background_focused.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/layout_item_app_tile.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/layout/item_app_tile.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/xml_accessibility_service_config.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.firetv.launcher.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.firetv.launcher.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/drawable_ic_settings.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/drawable_bg_launcher.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/drawable/bg_launcher.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/drawable_top_bar_button_bg.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/drawable/top_bar_button_bg.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/drawable_ic_launcher.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/drawable_selector_card_bg.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/drawable/selector_card_bg.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/drawable_card_background_idle.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/drawable/card_background_idle.xml"
+    },
+    {
+        "merged": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-merged_res-29:/drawable_dialog_item_selector.xml.flat",
+        "source": "/home/peter/.gradle/daemon/7.5/com.firetv.launcher.app-main-31:/drawable/dialog_item_selector.xml"
+    }
+]

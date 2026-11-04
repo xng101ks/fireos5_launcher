@@ -1,0 +1,255 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.firetv.launcher"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml
+10
+11    <!-- TV hardware characteristics -->
+12    <uses-feature
+12-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:6:5-8:36
+13        android:name="android.hardware.touchscreen"
+13-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:7:9-52
+14        android:required="false" />
+14-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:8:9-33
+15    <uses-feature
+15-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:9:5-11:36
+16        android:name="android.software.leanback"
+16-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:10:9-49
+17        android:required="false" />
+17-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:11:9-33
+18    <uses-feature
+18-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:12:5-14:36
+19        android:name="android.hardware.wifi"
+19-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:13:9-45
+20        android:required="false" />
+20-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:14:9-33
+21
+22    <!-- Needed on Android 11+ to query all installed apps; ignored gracefully on Android 5.1 -->
+23    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+23-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:17:5-19:53
+23-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:18:9-61
+24
+25    <!-- Boot and System settings permissions for FireOS 5 -->
+26    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+26-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:22:5-81
+26-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:22:22-78
+27    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+27-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:23:5-25:47
+27-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:24:9-64
+28    <uses-permission android:name="android.permission.READ_LOGS" />
+28-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:26:5-28:47
+28-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:27:9-52
+29    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+29-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:29:5-78
+29-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:29:22-75
+30
+31    <permission
+31-->[androidx.core:core:1.10.1] /home/peter/.gradle/caches/transforms-3/34386a5056cb4cbb60a60f6262fb42df/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+32        android:name="com.firetv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.10.1] /home/peter/.gradle/caches/transforms-3/34386a5056cb4cbb60a60f6262fb42df/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.10.1] /home/peter/.gradle/caches/transforms-3/34386a5056cb4cbb60a60f6262fb42df/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.firetv.launcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.10.1] /home/peter/.gradle/caches/transforms-3/34386a5056cb4cbb60a60f6262fb42df/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.10.1] /home/peter/.gradle/caches/transforms-3/34386a5056cb4cbb60a60f6262fb42df/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:31:5-95:19
+38        android:allowBackup="true"
+38-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:32:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.10.1] /home/peter/.gradle/caches/transforms-3/34386a5056cb4cbb60a60f6262fb42df/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+40        android:banner="@drawable/ic_launcher"
+40-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:35:9-47
+41        android:debuggable="true"
+42        android:icon="@drawable/ic_launcher"
+42-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:33:9-45
+43        android:label="@string/app_name"
+43-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:34:9-41
+44        android:supportsRtl="true"
+44-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:36:9-35
+45        android:theme="@style/Theme.FireTvLauncher" >
+45-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:37:9-52
+46
+47        <!-- Main Launcher Activity -->
+48        <activity
+48-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:40:9-61:20
+49            android:name="com.firetv.launcher.MainActivity"
+49-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:41:13-41
+50            android:clearTaskOnLaunch="true"
+50-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:43:13-45
+51            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize"
+51-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:46:13-126
+52            android:exported="true"
+52-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:47:13-36
+53            android:launchMode="singleTask"
+53-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:42:13-44
+54            android:screenOrientation="landscape"
+54-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:45:13-50
+55            android:stateNotNeeded="true" >
+55-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:44:13-42
+56
+57            <!-- Default & Home category intents -->
+58            <intent-filter>
+58-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:50:13-54:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:51:17-69
+59-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:51:25-66
+60
+61                <category android:name="android.intent.category.HOME" />
+61-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:52:17-73
+61-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:52:27-70
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:53:17-76
+62-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:53:27-73
+63            </intent-filter>
+64
+65            <!-- Android TV / Leanback Launcher intent -->
+66            <intent-filter>
+66-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:57:13-60:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:51:17-69
+67-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:51:25-66
+68
+69                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+69-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:59:17-86
+69-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:59:27-83
+70            </intent-filter>
+71        </activity>
+72
+73        <!-- Optional Accessibility Service to redirect home button back to this launcher -->
+74        <service
+74-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:64:9-75:19
+75            android:name="com.firetv.launcher.service.FireTvAccessibilityService"
+75-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:65:13-63
+76            android:exported="true"
+76-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:68:13-36
+77            android:label="@string/accessibility_service_label"
+77-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:66:13-64
+78            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+78-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:67:13-79
+79            <intent-filter>
+79-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:69:13-71:29
+80                <action android:name="android.accessibilityservice.AccessibilityService" />
+80-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:70:17-92
+80-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:70:25-89
+81            </intent-filter>
+82
+83            <meta-data
+83-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:72:13-74:72
+84                android:name="android.accessibilityservice"
+84-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:73:17-60
+85                android:resource="@xml/accessibility_service_config" />
+85-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:74:17-69
+86        </service>
+87
+88        <!-- Boot receiver to launch custom launcher upon Fire TV startup -->
+89        <receiver
+89-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:78:9-87:20
+90            android:name="com.firetv.launcher.receiver.BootReceiver"
+90-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:79:13-50
+91            android:enabled="true"
+91-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:80:13-35
+92            android:exported="true" >
+92-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:81:13-36
+93            <intent-filter android:priority="999" >
+93-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:82:13-86:29
+93-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:82:28-50
+94                <action android:name="android.intent.action.BOOT_COMPLETED" />
+94-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:83:17-79
+94-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:83:25-76
+95                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+95-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:84:17-82
+95-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:84:25-79
+96
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:53:17-76
+97-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:53:27-73
+98            </intent-filter>
+99        </receiver>
+100
+101        <!-- Background logcat Home watcher service (Launcher Manager FOS5 method) -->
+102        <service
+102-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:90:9-93:40
+103            android:name="com.firetv.launcher.service.HomeWatcherService"
+103-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:91:13-55
+104            android:enabled="true"
+104-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:92:13-35
+105            android:exported="false" />
+105-->/home/peter/Desktop/firetv-launcher/app/src/main/AndroidManifest.xml:93:13-37
+106
+107        <provider
+107-->[androidx.emoji2:emoji2:1.2.0] /home/peter/.gradle/caches/transforms-3/95aab9b93a911a821302204f43b56e9a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+108            android:name="androidx.startup.InitializationProvider"
+108-->[androidx.emoji2:emoji2:1.2.0] /home/peter/.gradle/caches/transforms-3/95aab9b93a911a821302204f43b56e9a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+109            android:authorities="com.firetv.launcher.androidx-startup"
+109-->[androidx.emoji2:emoji2:1.2.0] /home/peter/.gradle/caches/transforms-3/95aab9b93a911a821302204f43b56e9a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+110            android:exported="false" >
+110-->[androidx.emoji2:emoji2:1.2.0] /home/peter/.gradle/caches/transforms-3/95aab9b93a911a821302204f43b56e9a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+111            <meta-data
+111-->[androidx.emoji2:emoji2:1.2.0] /home/peter/.gradle/caches/transforms-3/95aab9b93a911a821302204f43b56e9a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+112-->[androidx.emoji2:emoji2:1.2.0] /home/peter/.gradle/caches/transforms-3/95aab9b93a911a821302204f43b56e9a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+113                android:value="androidx.startup" />
+113-->[androidx.emoji2:emoji2:1.2.0] /home/peter/.gradle/caches/transforms-3/95aab9b93a911a821302204f43b56e9a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+114            <meta-data
+114-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/peter/.gradle/caches/transforms-3/bd9d39a349ada7c7c017753d0e002bdb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+115-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/peter/.gradle/caches/transforms-3/bd9d39a349ada7c7c017753d0e002bdb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+116                android:value="androidx.startup" />
+116-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/peter/.gradle/caches/transforms-3/bd9d39a349ada7c7c017753d0e002bdb/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+117            <meta-data
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+119                android:value="androidx.startup" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+120        </provider>
+121
+122        <receiver
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+123            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+124            android:directBootAware="false"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+125            android:enabled="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+126            android:exported="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+127            android:permission="android.permission.DUMP" >
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+129                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+132                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+135                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+138                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/peter/.gradle/caches/transforms-3/ef0397d054106b0b5be97fc70b7282af/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+139            </intent-filter>
+140        </receiver>
+141    </application>
+142
+143</manifest>
